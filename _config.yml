@@ -12,17 +12,17 @@ plugins:
 logo: "https://mr-izu.github.io/logos/elca.png" # Path to your logo
 
 # NEW Navigation configuration - Updated for the new navigation system
-# Alternative flat structure
-nav:
-  - Home: index.md
-  - Adnan:
+navigation:
+  Home: 
+    url: /index.md
+  Adnan:
     - Assignment: /adnan/assignment
     - Seminar: /adnan/seminar
-  - Jaseel:
+  Jaseel:
     - Assignment: /jaseel/assignment
     - "Athulya Assignment": /jaseel/athulya_assignment
     - "Navas Assignment": /jaseel/navas_assignment
-  - "My Notes":
+  "My Notes":
     - "Aseena Assignment": /my/aseena_assignment
     - "Aseena Seminar": /my/aseena_seminar
     - Assignment: /my/assignment
@@ -30,8 +30,8 @@ nav:
     - Seminar: /my/seminar
     - "Suji Assignment": /my/suji_assignment
     - "Suji Seminar": /my/suji_seminar
-  - Noushique:
+  Noushique:
     - Assignment: /noushique/assignment
     - Seminar: /noushique/seminar
-  - BCA:
+  BCA:
     - "Sinan Assignment": /sinan/assignment
