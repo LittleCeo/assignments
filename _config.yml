@@ -35,3 +35,6 @@ navigation:
     - Seminar: /noushique/seminar
   BCA:
     - "Sinan Assignment": /sinan/assignment
+  NESTER:
+    NEST1:
+    - "nest trying":/sinan/assignment
