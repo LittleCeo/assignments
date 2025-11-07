@@ -12,31 +12,73 @@ plugins:
 logo: "https://Littleceo.github.io/logos/elca.png" # Path to your logo
 
 # NEW Navigation configuration - Updated for the new navigation system
+# NEW Navigation configuration - Updated for the new navigation system
 navigation:
-  Home: 
-    url: /index.md
-  Adnan:
-    - Assignment: /adnan/assignment
-    - Seminar: /adnan/seminar
-  Jaseel:
-    - Assignment: /jaseel/assignment
-    - "Athulya Assignment": /jaseel/athulya_assignment
-    - "Navas Assignment": /jaseel/navas_assignment
-  "My Notes":
-    - "Aseena Assignment": /my/aseena_assignment
-    - "Aseena Seminar": /my/aseena_seminar
-    - Assignment: /my/assignment
-    - "Athulya Assignment": /my/athulya_assignment
-    - Seminar: /my/seminar
-    - "Suji Assignment": /my/suji_assignment
-    - "Suji Seminar": /my/suji_seminar
-  Noushique:
-    - Assignment: /noushique/assignment
-    - Seminar: /noushique/seminar
-  BCA:
-    - "Sinan Assignment": /sinan/assignment
-  Calicut:
-    - BEPOLI:
-      - "Operating Project": /calicut/bepoli/op
-    - NIKKOLA:
-      - "Nokil project": /calicut/nikkola/noki
+  - title: "Home"
+    url: "/"
+  - title: "Adnan"
+    type: "folder"
+    url: "/adnan"
+    children:
+      - title: "Assignment"
+        url: "/adnan/assignment"
+      - title: "Seminar"
+        url: "/adnan/seminar"
+  - title: "Jaseel"
+    type: "folder"
+    url: "/jaseel"
+    children:
+      - title: "Assignment"
+        url: "/jaseel/assignment"
+      - title: "Athulya Assignment"
+        url: "/jaseel/athulya_assignment"
+      - title: "Navas Assignment"
+        url: "/jaseel/navas_assignment"
+  - title: "My Notes"
+    type: "folder"
+    url: "/my"
+    children:
+      - title: "Aseena Assignment"
+        url: "/my/aseena_assignment"
+      - title: "Aseena Seminar"
+        url: "/my/aseena_seminar"
+      - title: "Assignment"
+        url: "/my/assignment"
+      - title: "Athulya Assignment"
+        url: "/my/athulya_assignment"
+      - title: "Seminar"
+        url: "/my/seminar"
+      - title: "Suji Assignment"
+        url: "/my/suji_assignment"
+      - title: "Suji Seminar"
+        url: "/my/suji_seminar"
+  - title: "Noushique"
+    type: "folder"
+    url: "/noushique"
+    children:
+      - title: "Assignment"
+        url: "/noushique/assignment"
+      - title: "Seminar"
+        url: "/noushique/seminar"
+  - title: "BCA"
+    type: "folder"
+    url: "/sinan"
+    children:
+      - title: "Sinan Assignment"
+        url: "/sinan/assignment"
+  - title: "Calicut"
+    type: "folder"
+    url: "/calicut"
+    children:
+      - title: "BEPOLI"
+        type: "folder"
+        url: "/calicut/bepoli"
+        children:
+          - title: "Operating Project"
+            url: "/calicut/bepoli/op"
+      - title: "NIKKOLA"
+        type: "folder"
+        url: "/calicut/nikkola"
+        children:
+          - title: "Nokil project"
+            url: "/calicut/nikkola/noki"
