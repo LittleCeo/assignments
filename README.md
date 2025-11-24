@@ -1,5 +1,1 @@
-ggbj
-
-ak
-wlej
-g
+# Example Web for Elca theme
